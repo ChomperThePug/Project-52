@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    vertical-align: middle;
+    height: 200px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 310px;
+    font-family: fantasy;
+}
+
+.origami img:hover{
+-ms-transform: rotate(20deg);
+transform: rotate(20deg);
+}
+
+.origami :hover{
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    }
